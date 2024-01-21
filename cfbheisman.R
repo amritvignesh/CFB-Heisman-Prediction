@@ -4,8 +4,6 @@ library(tidyverse)
 library(gt)
 library(webshot2)
 
-Sys.setenv(CFBD_API_KEY = "qijnf0hISYc7A263Wk69ovHCrhd9hW9kxg8gmRFYcLwnBlVN608QwTHq5CykX386")
-
 og_data <- load_cfb_pbp(2014:2023)
 og_schedules <- load_cfb_schedules(2014:2023)
 
